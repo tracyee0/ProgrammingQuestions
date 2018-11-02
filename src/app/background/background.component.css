@@ -1,0 +1,21 @@
+h3{
+    text-align: center;
+}
+
+.intro{
+    text-align: center;
+    min-height: 100px;
+}
+
+.answer{
+    float: right;
+}
+
+.inp{
+    width: 400px;
+    height: 35px;
+    margin-bottom:10px;
+    border-radius:3px;
+    border: 1px solid silver;
+    padding:5px;
+}
