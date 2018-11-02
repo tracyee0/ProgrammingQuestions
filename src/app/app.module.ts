@@ -9,12 +9,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BackgroundComponent } from './background/background.component';
 import { HeaderComponent } from './header/header.component';
+import { QuestionComponent } from './question/question.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BackgroundComponent,
-    HeaderComponent
+    HeaderComponent,
+    QuestionComponent
   ],
   imports: [
     BrowserModule,
