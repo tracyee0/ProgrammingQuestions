@@ -6,9 +6,8 @@
     <input class="inp"type="text" placeholder="type question">
     <button class="btn info">Submit</button>
     </div>
-    <app-question></app-question>
-    <app-question></app-question>
-    <app-question></app-question>
-    <app-question></app-question>
-    
+
+    <div *ngFor="let item of questionList">
+        <app-question [question]="item"></app-question>
+    </div>
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-question',
@@ -9,7 +9,14 @@ export class QuestionComponent implements OnInit {
 
   constructor() { }
 
+  @Input()
+  public question: any; // {subject: 'example', author: 'emeka'}
+
   ngOnInit() {
   }
 
+  age() {
+
+  }
+  
 }
