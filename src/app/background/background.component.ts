@@ -10,7 +10,9 @@ export class BackgroundComponent implements OnInit {
   public questionObject = 
   {
     subject: "who is your father",
-    author: "John Doe"
+    author: "John Doe",
+    answer: "12 answers",
+    time: "14 minuites ago"
   }
 
   public questionList: any[]
@@ -21,17 +23,23 @@ export class BackgroundComponent implements OnInit {
     this.questionList = [
       {
         subject: "who is your father",
-        author: "John Doe"
+        author: "John Doe",
+        answer: "12 answers",
+        time:"14 minuites ago"
       },
 
       {
         subject: "where do you work",
-        author: "Tra"
+        author: "Tra",
+        answer: "13 answers",
+        time:"17 minuites ago"
       },
 
       {
         subject: "Do you like fashion",
-        author: "papo"
+        author: "papo",
+        answer: "20 answers",
+        time:"30 minuites ago"
       },
     ]
   }
