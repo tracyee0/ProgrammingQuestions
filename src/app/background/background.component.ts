@@ -7,14 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BackgroundComponent implements OnInit {
 
-  public questionObject = 
-  {
-    subject: "who is your father",
-    author: "John Doe",
-    answer: "12 answers",
-    time: "14 minuites ago"
-  }
-
   public questionList: any[]
 
   constructor() { }

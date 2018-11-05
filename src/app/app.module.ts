@@ -11,6 +11,7 @@ import { BackgroundComponent } from './background/background.component';
 import { HeaderComponent } from './header/header.component';
 import { QuestionComponent } from './question/question.component';
 import { ViewQuestionsComponent } from './view-questions/view-questions.component';
+import { AnswersComponent } from './answers/answers.component';
 
 const ROUTES = [
   {path: '', component: BackgroundComponent},
@@ -23,7 +24,8 @@ const ROUTES = [
     BackgroundComponent,
     HeaderComponent,
     QuestionComponent,
-    ViewQuestionsComponent
+    ViewQuestionsComponent,
+    AnswersComponent
   ],
   imports: [
      [
