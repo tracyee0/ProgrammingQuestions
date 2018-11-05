@@ -50,6 +50,13 @@ const questionIds = () => {
 
 // write a method thats the list of all question subject. Hint array.Map
 // write a method that takes an id and delete the question with thata id; array.splice
+// write a method that takes a question, and adds it to the list of questions;
+// write a method that takes an answer, and adds it to the list of answers; make sure that the answer has a question id;
+// write a method that takes an id and delete the answer with thata id; array.splice
 
-
+//CRUD
+//create
+// read,
+//update,
+//delete
 
