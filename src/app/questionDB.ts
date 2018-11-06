@@ -49,10 +49,24 @@ const questionIds = () => {
 }
 
 // write a method thats the list of all question subject. Hint array.Map
+const questionSubject =()=>{
+    return questions.map(question =>question.subject)
+}
 // write a method that takes an id and delete the question with thata id; array.splice
+const deleteQuestion= questions.splice(1,0)
+
 // write a method that takes a question, and adds it to the list of questions;
+const newQuestion=()=>{
+    return questions.push()
+}
 // write a method that takes an answer, and adds it to the list of answers; make sure that the answer has a question id;
+const newAnswer=()=>{
+    return answers.push()
+}
+
 // write a method that takes an id and delete the answer with thata id; array.splice
+
+const deleteAnswer= answers.splice(1,0)
 
 //CRUD
 //create
